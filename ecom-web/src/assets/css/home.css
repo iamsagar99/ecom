@@ -1,0 +1,113 @@
+.thumb-small {
+    max-width: 190px;
+    max-height: 137px;
+    background: #e6e6e6;
+}
+.product-thumb{
+    min-height: 150px; 
+    overflow: hidden;
+    background-size: contain; 
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.increase-size {
+    font-size: 2rem;
+}
+.imag{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+.cart-row-img{
+    height: 100px;
+    width: 100px;
+}
+.prod-div{
+    width: auto;
+    height: 20vh;
+}
+.cat-div{
+    width: auto;
+    height: 10vh;
+}
+
+.cat-imag{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+.cat-div-home{
+    width: 100px;
+    height: 40px;
+    border: 3px solid black
+}
+.cat-row{
+    border: 1px solid black;
+}
+.cat-img{
+    border-radius: 10px 1px 23px 1px;
+}
+
+.arrow-button {
+    display: flex;
+    color: #fff;
+    background-color: #5e5e5e;
+    padding: 10px 16px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    cursor: pointer;
+    align-items: center;
+    font-size: 14px;
+}
+
+.arrow-button > .arrow {
+    width: 6px;
+    height: 6px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    position: relative;
+    transform: rotate(-45deg);
+    margin: 0 6px;
+    transition: all 0.3s ease;
+}
+
+.arrow-button > .arrow::before {
+    display: block;
+    background-color: currentColor;
+    width: 3px;
+    transform-origin: bottom right;
+    height: 2px;
+    position: absolute;
+    opacity: 0;
+    bottom: calc(-2px / 2);
+    transform: rotate(45deg);
+    transition: all 0.3s ease;
+    content: "";
+    right: 0;
+}
+
+.arrow-button:hover > .arrow {
+    transform: rotate(-45deg) translate(4px, 4px);
+    border-color: text-hover-color;
+}
+
+.arrow-button:hover > .arrow::before {
+    opacity: 1;
+    width: 8px;
+}
+
+.arrow-button:hover {
+    background-color: #017A4F;
+    color: #fff;
+}
+#parent-cat-div{
+    width: auto;
+    height: 10vh;
+}
+
+.row-cat{
+    margin:0;
+    padding:0;
+}
