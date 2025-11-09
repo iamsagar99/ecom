@@ -24,7 +24,7 @@ import ProductEdit from "./product/product-edit.page";
 import OrderPage from "./order/order.page";
 import OrderEdit from "./order/order-edit.page";
 
-// import UsersPage from "./users.page";
+// import UserProfile from "./users.profile";
 // import UserUpdate from "./banner/user.update";
 // import Uploads from "./banner/uploads.pagcategory
 
@@ -53,6 +53,8 @@ const AdminPages = {
     ProductEdit,
 
     OrderPage,
-    OrderEdit
+    OrderEdit,
+
+    // UserProfile
 }
  export default AdminPages; 

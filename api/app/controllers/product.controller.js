@@ -89,7 +89,7 @@ class ProductController {
     updateProduct = (req, res, next) => {
         // TODO: Add Product
         try {
-            console.log("req", req)
+            // console.log("req", req)
             let data = req.body;
             if (req.files) {
                 let images = [];

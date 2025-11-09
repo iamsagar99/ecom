@@ -32,12 +32,19 @@ const LoginPage = () => {
                 console.log("response", response);
                 if (response.access_token) {
                     toast.success(response.msg);
-                    navigate("/" + response.user.role[0])
+                    if (response.user.role.includes("admin")) {
+                        navigate("/admin");
+                    } else if (response.user.role.includes("seller")) {
+                        navigate("/admin");
+                    } else {
+                        navigate("/");
+                    }
+
                 } else {
                     toast.error(response.msg)
                 }
             } catch (error) {
-                console.log(error)
+                toast.error(error)
             }
         }
     });

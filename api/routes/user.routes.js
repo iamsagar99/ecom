@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const loginCheck = require("../app/middleware/auth.middleware");
-const {isAdmin} = require("../app/middleware/rbac.middlware")
+const {isAdmin,isAdminSeller} = require("../app/middleware/rbac.middlware")
 const uploader = require("../app/middleware/file-upload.middleware");
 
 // const rbac = require("../app/middleware/rbac.middlware")
@@ -15,7 +15,7 @@ let setDestination = (req, res, next) => {
 // ..../user    ====> List all the users from DB
 router.route('/')
     // .get(loginCheck, rbac.isAdmin,  (req, res, next) => {
-    .get(loginCheck, isAdmin, user_obj.getAllUsers);
+    .get(loginCheck, isAdminSeller, user_obj.getAllUsers);
 
 router.route('/:id')
 //  ..../user/:id =====> Update user by id 

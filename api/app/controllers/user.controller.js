@@ -13,6 +13,9 @@ class UserController{
                 role: req.query.role
             }
         }
+        if(req.auth_user.role.includes("seller") && !req.auth_user.role.includes("admin")){
+            filters.email = req.auth_user.email
+        }
         let data = await UserModel.find(filters);
         res.json({
             result: data,

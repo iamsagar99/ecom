@@ -13,6 +13,10 @@ import "../../assets/css/nav.css"
 export const MenuComponent = () => {
   
   const localUser = JSON.parse(localStorage.getItem("auth_user"))
+  let isUserAdmin = "/profile";
+  if(localUser.role.includes("admin")){
+    isUserAdmin = "/admin"
+  }
   const navigate = useNavigate();
   let [totalItems,setTotalItems] = useState(0);
   let total = useSelector((store)=>{
@@ -47,7 +51,7 @@ console.log("totalItems",totalItems);
           <NavLink className = "nav-link" to={"/cart"}>Cart<i className="fa-solid fa-cart-shopping"></i>{totalItems}</NavLink>
         {
           localUser && <>
-          <NavLink className="nav-link" to={"/"+localUser.role[0]}>{localUser.name}</NavLink>
+          <NavLink className="nav-link" to={isUserAdmin}>{localUser.name}</NavLink>
           <NavLink className="nav-link" to="/login" onClick={(e)=>{
             e.preventDefault();
             localStorage.removeItem("auth_user");

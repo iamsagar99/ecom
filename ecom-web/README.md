@@ -77,3 +77,73 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - card layout has some error
 - while updating the product image value is not set..
 
+
+
+
+# **Samsung Galaxy S25 Ultra 5G AI Smartphone**
+
+**_Revolutionary AI-powered flagship with cutting-edge performance and photography excellence_**
+
+---
+
+## **Body & Design**  
+- **Weight:** _219 grams_  
+- **Build:** Premium **Titanium frame** with **flat sides**  
+- **Durability:** **IP68** dust and water resistance  
+- **Productivity:** Built-in **S Pen support**  
+
+---
+
+## **Display**  
+- **Size:** **6.8-inch** _Dynamic AMOLED 2X Infinity-O_  
+- **Protection:** **Gorilla Glass Armor**  
+- **Refresh Rate:** **Adaptive 120Hz**  
+- **Brightness:** Up to **2600 nits (peak)** with **Vision Booster**  
+- **Resolution:** **QHD+ (3088 x 1440 pixels)**  
+
+---
+
+## **Performance**  
+- **Processor:** **Qualcomm Snapdragon 8 Gen 4**  
+- **Max Refresh Rate:** **120 Hz**  
+
+---
+
+## **Camera System**  
+### **Rear Quad Camera (with LED flash)**  
+- **200MP** _Primary Lens_ – **OIS + PDAF**  
+- **50MP** _ISOCELL JN3 Ultra-Wide_ – **120º FOV**  
+- **10MP** _IMX754 Telephoto_ – **3x Optical Zoom**  
+- **50MP** _IMX584 Periscope Telephoto_ – **5x Optical Zoom**, **100x Digital Zoom**  
+
+### **Front Camera**  
+- **12MP** selfie camera  
+
+---
+
+## **Battery & Charging**  
+- **Capacity:** **5000mAh**  
+- **Fast Charging:** **45W wired**  
+- **Wireless Charging:** **15W**  
+
+---
+
+## **Sensors**  
+- Accelerometer  
+- Barometer  
+- Ultrasonic **Fingerprint Sensor**  
+- Gyro Sensor  
+- Geomagnetic Sensor  
+- Hall Sensor  
+- Light Sensor  
+- Proximity Sensor  
+
+---
+
+## **Software & Security**  
+- **Security Updates Until:** **31 January 2032**  
+- **Included:** **1-Year Breakage Insurance**  
+
+---
+
+**_Experience the future of mobile intelligence with Galaxy AI and unmatched versatility._**

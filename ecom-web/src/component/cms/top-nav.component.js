@@ -20,7 +20,7 @@ const navigate = useNavigate();
         <>
             <nav className="sb-topnav navbar navbar-expand navbar-dark bg-dark">
             {/* <!-- Navbar Brand--> */}
-            <NavLink className="navbar-brand ps-3" to={"/"+localUser.role[0] }>Admin Panel</NavLink>
+            <NavLink className="navbar-brand ps-3" to={"/profile"}>Admin Panel</NavLink>
             {/* <NavLink className="navbar-brand ps-3" to={"/"+userRoute}>Admin Panel</NavLink> */}
             {/* <!-- Sidebar Toggle--> */}
             <button onClick={toggleSidebar} className="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" ><i className="fas fa-bars"></i></button>

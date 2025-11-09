@@ -82,7 +82,7 @@ const RoutingComponent = () => {
                         <Route index element={<Front.HomePage />} />
                         <Route path="login" element={<Front.LoginPage />}></Route>
                         <Route path="register" element={<Front.RegisterPage />}></Route>
-
+                        <Route path="profile" element={<Front.UserProfile />}></Route>
                         <Route path="category/:slug" element={<Front.CategoryDetailPage />} />
                         <Route path="category/parent/:slug" element={<Front.ParentCategoryDetailPage />} />
                         <Route path="brand/:slug" element={<Front.BrandDetailPage />} />

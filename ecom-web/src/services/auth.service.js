@@ -5,6 +5,8 @@ export const login = async (data) => {
     
     try {
         let login_response = await postRequest(APT_ENDPOINTS.LOGIN_URL,data);
+        console.log("login resp")
+        console.log("lr=",login_response)
         if(login_response.result.access_token){
             localStorage.setItem("auth_token",login_response.result.access_token)
             let user_info = {
