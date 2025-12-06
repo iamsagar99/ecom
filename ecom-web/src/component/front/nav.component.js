@@ -14,7 +14,7 @@ export const MenuComponent = () => {
   
   const localUser = JSON.parse(localStorage.getItem("auth_user"))
   let isUserAdmin = "/profile";
-  if(localUser.role.includes("admin")){
+  if(localUser && localUser.role.includes("admin")){
     isUserAdmin = "/admin"
   }
   const navigate = useNavigate();
